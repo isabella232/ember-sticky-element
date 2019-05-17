@@ -1,5 +1,16 @@
 {{sticky-element/trigger offset=top enter=(action "parentTopEntered") exit=(action "parentTopExited") registerElement=(action "registerTopTrigger")}}
-
+<div style="
+  position: relative;
+  height: 100%;
+  padding-right: 37px;
+  width: 100%;
+  ">
+<div style="
+  height: 100%;
+  background: white;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+"></div></div>
 <div class="
   {{containerClassName}}
   {{if isSticky containerStickyClassName}}
